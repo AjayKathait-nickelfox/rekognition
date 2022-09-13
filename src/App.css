@@ -1,5 +1,75 @@
 .App {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
   text-align: center;
+  height: 100vh;
+  width: 100vw;
+  gap: 20px;background-color: #6d41a157;
+}
+.leftSide {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 70vw;
+}
+.rightSide {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 20vw;
+}
+.doc,
+.userPick {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.imgDiv {
+  width: 100%;
+}
+.imgDiv img {
+  width: 100%;
+}
+.documentUpload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.fileUpload {
+}
+.takePickOfDocument {
+}
+.imageUpload {
+}
+
+.btn {
+  background-color: #fff;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid #555;
+  color: #555;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cameraView {
+}
+.click {
+  color: #fff;
+  background-color: #555;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 
 .App-logo {
